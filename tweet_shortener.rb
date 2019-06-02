@@ -23,7 +23,7 @@ def word_substituter(tweets)
       if dictionary.keys.include?(word.downcase)
         word = dictionary[word.downcase]
       elsif condition
-        
+
 
         word
     end
